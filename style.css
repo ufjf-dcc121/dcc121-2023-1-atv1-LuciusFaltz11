@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header, footer{
+    padding:2rem 1rem; 
+    color: #fff; 
+    background:#353535
+  }
+  header{
+    margin: 2rem 1rem; 
+  }
+  header li{
+    display: inline; 
+    border: 1px solid; 
+    padding: 0.5rem
+  }
+  header a{
+    color: #fff;
+  }
