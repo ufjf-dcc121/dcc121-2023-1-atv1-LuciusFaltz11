@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <title>Jogos Jogados</title>
+    <style>
+        .serie{
+            color: rgb(59, 139, 59);
+        }
+        .filme{
+            color: rgb(73, 73, 223);
+        }
+        .jogos{
+            color: rgb(98, 17, 173);
+        }
+        p > .jogos{
+            border-bottom: dashed;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,11 +35,12 @@
     <main>
         <p>Três ultimos jogos que joguei:</p>
 
-        <ol>
+        <ol class="jogos">
             <li>Fifa</li>
             <li>Farcry </li>
             <li>Forza Horizon</li>
         </ol>
+        <p>E o <span class="jogos" >Fifa</span> foi meu preferido</p>
         
         <p>Filmes e Séries que assisti:</p>
 
@@ -33,7 +48,7 @@
             <li>
                 <div>
                     <strong>Filmes</strong>
-                    <ul style="color: rgb(73, 73, 223)">
+                    <ul class='filme'>
                         <li>Mistério em Paris</li>
                         <li>Mistério no Mediterrâneo</li>
                         <li>Star Wars</li>
@@ -43,7 +58,7 @@
             <li>
                 <div>
                     <strong>Séries</strong>
-                    <ul style="color: rgb(59, 139, 59)">
+                    <ul class='serie'>
                         <li>Rick and Morty</li>
                         <li>Mandalorian</li>
                     </ul>
